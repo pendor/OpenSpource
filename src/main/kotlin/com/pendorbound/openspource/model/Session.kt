@@ -8,7 +8,6 @@ import java.time.LocalDateTime
  */
 data class Session(
 		var name: String,
-		var location: Location,
 		var participants: Array<Participant>
 ) {
 	var startTime: LocalDateTime? = null
