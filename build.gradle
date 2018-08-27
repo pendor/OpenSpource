@@ -40,7 +40,6 @@ ext {
   wicketVersion = '8.0.0'
   kWicketVersion = '0.0.3'
   jettyVersion = '9.4.11.v20180605'
-  //jettyVersion = '8.1.21.v20160908'
   slf4jVersion = '1.7.25'
   log4jVersion = '2.11.1'
 }
@@ -48,14 +47,14 @@ ext {
 dependencies {
   compile group: 'org.jetbrains.kotlin',        name: 'kotlin-stdlib-jdk8',     version: kotlinVersion
   
-  compile group: 'org.jupnp',               name: 'org.jupnp',                version: '2.4.0'
+  compile group: 'org.jupnp',                   name: 'org.jupnp',              version: '2.4.0'
   
   compile group: 'org.apache.wicket',           name: 'wicket-core',            version: wicketVersion
   compile group: 'org.apache.wicket',           name: 'wicket-extensions',      version: wicketVersion
   
   compile group: 'org.kwicket',                 name: 'kwicket-core',           version: kWicketVersion
-  compile group: 'org.kwicket',                 name: 'kwicket-wicket-core',           version: kWicketVersion
-  compile group: 'org.kwicket',                 name: 'kwicket-wicket-extensions',           version: kWicketVersion
+  compile group: 'org.kwicket',                 name: 'kwicket-wicket-core',    version: kWicketVersion
+  compile group: 'org.kwicket',                 name: 'kwicket-wicket-extensions',  version: kWicketVersion
   
   compile group: 'org.eclipse.jetty',           name: 'jetty-client',           version: jettyVersion
   compile group: 'org.eclipse.jetty',           name: 'jetty-server',           version: jettyVersion
@@ -64,14 +63,10 @@ dependencies {
   compile group: 'org.eclipse.jetty',           name: 'jetty-jmx',              version: jettyVersion
 
   compile group: 'org.slf4j',                   name: 'slf4j-api',              version: slf4jVersion
-  //compile group: 'org.slf4j',                   name: 'slf4j-log4j12',          version: slf4jVersion
   compile group: 'org.slf4j',                   name: 'jcl-over-slf4j',         version: slf4jVersion
   compile group: 'org.slf4j',                   name: 'jul-to-slf4j',           version: slf4jVersion
-  //compile group: 'org.apache.logging.log4j',    name: 'log4j-core',             version: log4jVersion
-  
   compile group: 'org.slf4j',                   name: 'slf4j-log4j12',          version: slf4jVersion
-  //compile group: 'log4j',                       name: 'log4j',                  version: log4jVersion
-        
+
   // compile "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}"
   // testCompile "org.jetbrains.kotlin:kotlin-test-junit:${kotlinVersion}"
   // testRuntime("org.junit.platform:junit-platform-launcher:1.2.0")
@@ -112,14 +107,4 @@ if(gradle.startParameter.initScripts) {
 gretty {
     servletContainer = 'jetty9'
     jvmArgs = [*debugArgs]
-//    jvmArgs = [
-////            '-Xdebug',
-////            '-agentlib:jdwp=transport=dt_socket,address=5005,suspend=n,server=y',
-////            '-Dcom.sun.management.jmxremote',
-////            '-Dcom.sun.management.jmxremote.port=1099',
-////            '-Dcom.sun.management.jmxremote.authenticate=false',
-////            '-Dcom.sun.management.jmxremote.ssl=false',
-//            '-DOPTIONS=jmx'
-//    ]
-    // serverConfigFile = 'conf/jetty-jmx-remote.xml'
 }

@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0884f7e-837b-412a-b2f7-27e4ea9f54e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/OpenSpource_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/OpenSpource_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pendorbound/cluster/Locator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/model/Schedule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/model/Schedule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/model/Session.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/model/Session.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/web/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/web/HomePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/web/HomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/pendorbound/openspource/web/HomePage.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,13 +82,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="243" />
+          <entry key="gradle" value="250" />
           <entry key="properties" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="243" />
+          <entry key="Groovy" value="250" />
           <entry key="Properties" value="23" />
         </counts>
       </usages-collector>
@@ -111,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="159">
+              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -819,11 +807,6 @@
             <path>
               <item name="OpenSpource" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenSpource" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenSpource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenSpource" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1053,8 +1036,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="159">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
         </state>
       </provider>
     </entry>
